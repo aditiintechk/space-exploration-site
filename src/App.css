@@ -5,6 +5,13 @@
 	text-align: center;
 }
 
+h1,
+h2,
+p {
+	margin: 0;
+	padding: 0;
+}
+
 header {
 	font-family: 'Barlow Condensed', sans-serif;
 	letter-spacing: 0.5px;
@@ -42,3 +49,57 @@ header {
 	font-weight: 500;
 	margin-right: 0.2em;
 }
+
+/* Home Page */
+
+.home-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 75%;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 20%;
+	right: 0;
+	left: 0;
+	text-align: left;
+}
+
+.home-info {
+	width: 390px;
+}
+
+.home-info h2 {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 200;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+}
+
+.home-info h1 {
+	font-family: 'Bellefair', serif;
+	font-size: 5rem;
+	font-weight: 400;
+}
+
+.home-info p {
+	font-size: 0.8rem;
+	line-height: 1.9;
+}
+
+.explore-btn {
+	font-family: 'Bellefair', serif;
+	text-align: center;
+	margin-right: 6em;
+	padding: 3.5rem 2rem;
+	background-color: #fff;
+	color: #111;
+	border: transparent;
+	outline: transparent;
+	border-radius: 50%;
+	font-size: 1rem;
+}
+
+/* font-family: "Bellefair", serif; */
+/* font-family: "Barlow Condensed", sans-serif; */
+/* font-family: "Barlow", sans-serif; */

@@ -6,7 +6,7 @@ export default function Header() {
 			<img src={logo} alt='logo' className='logo' />
 			<nav>
 				<ul className='nav-items'>
-					<li className='item'>
+					<li className='item activeStyles'>
 						<span>00</span> HOME
 					</li>
 					<li className='item'>
