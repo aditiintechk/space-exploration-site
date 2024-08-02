@@ -41,10 +41,13 @@ header {
 	padding: 1.2em 0.1em;
 	text-decoration: none;
 	color: #fff;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 200;
 }
 
 .item:hover {
 	opacity: 0.8;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .item span {
@@ -108,6 +111,34 @@ header {
 	opacity: 0.8;
 	box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
 	transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Destination */
+.destination-title {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 1.3rem;
+	letter-spacing: 2px;
+	margin-top: 3em;
+	margin-right: 60%;
+}
+
+.destination-title span {
+	font-weight: 800;
+	margin-right: 0.4em;
+	color: #555;
+	opacity: 0.8;
+}
+.destination-nav {
+	margin-left: 30%;
+	margin-top: 4em;
+}
+
+.destination-nav .item {
+	letter-spacing: 1px;
+	padding: 0.5em 0.1em;
+	margin: 0 0.5em;
+	font-size: 0.8rem;
 }
 
 /* font-family: "Bellefair", serif; */
