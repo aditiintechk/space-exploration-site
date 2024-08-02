@@ -14,7 +14,7 @@ export default function DestinationLayout() {
 			</h2>
 			<nav className='destination-nav'>
 				<NavLink
-					to='/destination'
+					to='.'
 					end
 					className='item'
 					style={({ isActive }) => (isActive ? activeStyles : null)}
@@ -22,21 +22,21 @@ export default function DestinationLayout() {
 					MOON
 				</NavLink>
 				<NavLink
-					to='/destination/mars'
+					to='mars'
 					className='item'
 					style={({ isActive }) => (isActive ? activeStyles : null)}
 				>
 					MARS
 				</NavLink>
 				<NavLink
-					to='/destination/europa'
+					to='europa'
 					className='item'
 					style={({ isActive }) => (isActive ? activeStyles : null)}
 				>
 					EUROPA
 				</NavLink>
 				<NavLink
-					to='/destination/titan'
+					to='titan'
 					className='item'
 					style={({ isActive }) => (isActive ? activeStyles : null)}
 				>

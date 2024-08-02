@@ -1,8 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home.jsx'
-import Crew from './pages/Crew.jsx'
-import Technology from './pages/Technology.jsx'
 import Layout from './components/Layout.jsx'
 import DestinationLayout from './components/DestinationLayout.jsx'
 import Moon from './pages/destination/Moon.jsx'
@@ -16,17 +14,12 @@ function App() {
 			<Routes>
 				<Route path='/' element={<Layout />}>
 					<Route index element={<Home />} />
-					<Route path='/destination' element={<DestinationLayout />}>
+					<Route path='destination' element={<DestinationLayout />}>
 						<Route index element={<Moon />} />
-						<Route path='/destination/mars' element={<Mars />} />
-						<Route
-							path='/destination/europa'
-							element={<Europa />}
-						/>
-						<Route path='/destination/titan' element={<Titan />} />
+						<Route path='mars' element={<Mars />} />
+						<Route path='europa' element={<Europa />} />
+						<Route path='titan' element={<Titan />} />
 					</Route>
-					<Route path='/crew' element={<Crew />} />
-					<Route path='/technology' element={<Technology />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>

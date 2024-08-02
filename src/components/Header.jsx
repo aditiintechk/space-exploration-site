@@ -15,7 +15,7 @@ export default function Header() {
 			<nav>
 				<ul className='nav-items'>
 					<NavLink
-						to='/'
+						to='.'
 						className='item'
 						style={({ isActive }) =>
 							isActive ? activeStyles : null
@@ -24,31 +24,13 @@ export default function Header() {
 						<span>00</span> HOME
 					</NavLink>
 					<NavLink
-						to='/destination'
+						to='destination'
 						className='item'
 						style={({ isActive }) =>
 							isActive ? activeStyles : null
 						}
 					>
 						<span>01</span> DESTINATION
-					</NavLink>
-					<NavLink
-						to='/crew'
-						className='item'
-						style={({ isActive }) =>
-							isActive ? activeStyles : null
-						}
-					>
-						<span>02</span> CREW
-					</NavLink>
-					<NavLink
-						to='/technology'
-						className='item'
-						style={({ isActive }) =>
-							isActive ? activeStyles : null
-						}
-					>
-						<span>03</span> TECHNOLOGY
 					</NavLink>
 				</ul>
 			</nav>
