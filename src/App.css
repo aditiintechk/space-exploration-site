@@ -101,6 +101,13 @@ header {
 	outline: transparent;
 	border-radius: 50%;
 	font-size: 1rem;
+	text-decoration: none;
+}
+
+.explore-btn:hover {
+	opacity: 0.8;
+	box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
+	transition: box-shadow 0.3s ease-in-out;
 }
 
 /* font-family: "Bellefair", serif; */

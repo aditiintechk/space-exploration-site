@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Home() {
 	return (
 		<div className='home-container'>
@@ -12,7 +14,9 @@ export default function Home() {
 				</p>
 			</section>
 			<section className='home-explore'>
-				<button className='explore-btn'>EXPLORE</button>
+				<Link to='/destination' className='explore-btn'>
+					EXPLORE
+				</Link>
 			</section>
 		</div>
 	)
