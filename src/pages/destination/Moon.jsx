@@ -13,10 +13,10 @@ export default function Moon() {
 			<section className='destination-info'>
 				<h1>MOON</h1>
 				<p>
-					Let's face it; if you want to go to space, you might as well
-					genuinely go to outer space and not hover kind of on the
-					edge of it. Well sit back, and relax because we'll give you
-					a truly out of this world experience!
+					See our planet as you’ve never seen it before. A perfect
+					relaxing trip away to help regain perspective and come back
+					refreshed. While you’re there, take in some history by
+					visiting the Luna 2 and Apollo 11 landing sites.
 				</p>
 				<hr />
 				<div className='sub-info'>
