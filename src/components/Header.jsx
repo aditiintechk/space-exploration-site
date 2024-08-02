@@ -4,6 +4,8 @@ import { Link, NavLink } from 'react-router-dom'
 export default function Header() {
 	const activeStyles = {
 		borderBottom: '2px solid #fff',
+		transform: 'scaleX(1.1)',
+		transition: 'transform 0.5s ease',
 	}
 	return (
 		<header>

@@ -47,10 +47,6 @@ header {
 	opacity: 0.8;
 }
 
-.activeStyles {
-	border-bottom: 2px solid #fff;
-}
-
 .item span {
 	font-weight: 500;
 	margin-right: 0.2em;
